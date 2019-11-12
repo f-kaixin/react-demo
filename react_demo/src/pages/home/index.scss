@@ -1,0 +1,67 @@
+#root,
+#system_spin,
+.ant-spin-container,
+#layout {
+    height: 100%;
+}
+
+#sidebar {
+    $width: 260px;
+    flex: 0 0 $width !important;
+    width: $width !important;
+    min-width: $width !important;
+    max-width: $width !important;
+}
+
+.system_sign {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i {
+        font-size: 22px;
+        margin-right: 12px;
+    }
+    span {
+        font-size: 22px;
+        color: #fff;
+    }
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+}
+
+
+.ant-layout-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    // justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 6px 0 rgba(0,0,0,.04);
+
+    .trigger {
+        margin-left: 16px;
+    }
+    .user-info {
+        margin-right: 16px;
+        display: flex;
+        align-items: center;
+    }
+    .ant-avatar {
+        margin-right: 8px;
+    }
+    .ant-dropdown-link {
+        color: rgba(0, 0, 0, 0.65);
+        &:hover {
+            color: #1890ff;
+        }
+    }
+}
+
+.ant-layout-content {
+    background: #f0f2f5 !important;
+    padding: 0 !important;
+}
+

@@ -1,0 +1,14 @@
+#search_list {
+    display: flex;
+    flex-wrap: wrap;
+    .ant-form-item {
+        width: 320px;
+        .ant-btn {
+            margin-right: 15px;
+        }
+    }
+}
+
+#edition_list_content {
+    margin-top: 24px;
+}

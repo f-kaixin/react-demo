@@ -1,0 +1,21 @@
+
+#login_form_section {
+    margin: 0 auto;
+    width: 340px;
+    padding: 20px;
+    border: 1px solid #ebedf0;
+    position: relative;
+    top: 200px;
+    
+    .login-form {
+        width: 100%;
+
+        .login-form-forgot {
+            float: right;
+        }
+    
+        .login-form-button {
+            width: 100%;
+        }
+    }
+}

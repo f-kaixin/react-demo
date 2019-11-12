@@ -1,0 +1,107 @@
+#version_detail {
+    #step_overall {
+        #basic_info_text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            color: rgba(0, 0, 0, .8);
+        }
+        .basic-info-text-label {
+            margin-right: 12px;
+        }
+    }
+    
+    #step_wrap {
+        margin-top: 16px;
+    }
+    
+    #step_wrap_footer {
+        clear: both;
+        .ant-btn-group {
+            float: right;
+        }
+    }
+    
+    .ant-divider-horizontal {
+        margin: 20px 0 !important;
+    }
+
+    .action-btns .ant-btn {
+        margin-right: 12px;
+    }
+
+    .request-plan-table {
+        margin: 16px 0;
+    }
+
+    .project-envir-info p {
+        margin: 0;
+    }
+
+    #version_complete {
+        .ant-tabs-tabpane {
+            display: flex;
+        }
+        .complete-card-sec {
+            flex: 1;
+            margin-left: 16px;
+        }
+        .log-pane {
+            display: inline-block;
+            padding: 12px 32px;
+            width: 100%;
+            background: #000;
+            margin-top: 24px;
+            color: #fff;
+            min-height: 360px;
+            max-height: 660px;
+            border-radius: 4px;
+            overflow-y: auto;
+        }
+    }
+
+    .complete-card-meta {
+        display: flex;
+        justify-content: space-between;
+        .searchForm {
+            display: flex;
+            align-items: center;
+            span {
+                margin-right: 12px;
+            }
+            .ant-select {
+                margin-right: 24px;
+            }
+        }
+        .complete-card-meta-btns {
+            .ant-btn {
+                margin-left: 16px;
+                &:nth-child(1), 
+                &:nth-child(2) {
+                    span {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.add-request-modal {
+    .ant-modal-body {
+        padding-top: 12px;
+    }
+
+    .choosed-requests {
+        display: flex;
+        span {
+            margin-right: 12px;
+        }
+    }
+
+    .act-link-btn {
+        padding-left: 0;
+    }
+}
